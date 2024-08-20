@@ -7,6 +7,13 @@ import sys
 
 from pystardict import Dictionary
 
+# In my case, my stardict file is in C:\\Users\\2346318\\coding folder
+# And there are 4 files that need to be prepared
+# Collins5.dict.dz
+# Collins5.idx
+# Collins5.ifo
+# Collins5.syn
+
 dicts_dir = 'C:\\Users\\2346318\\coding'
 dict1 = Dictionary(os.path.join(dicts_dir, 'Collins5'))
 
