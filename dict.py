@@ -14,7 +14,7 @@ from pystardict import Dictionary
 # Collins5.ifo
 # Collins5.syn
 
-dicts_dir = 'C:\\Users\\2346318\\coding'
+dicts_dir = 'C:\\Users\\xxxxxx\\coding'
 dict1 = Dictionary(os.path.join(dicts_dir, 'Collins5'))
 
 # Define the function to display HTML content
